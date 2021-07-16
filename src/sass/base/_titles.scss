@@ -1,0 +1,70 @@
+.main__label {
+  font-family: $title-font;
+  font-size: 26px;
+  line-height: 1.145;
+  color: $white-text-color;
+  letter-spacing: 4%;
+  @media (min: width 768px) {
+    font-size: 22px;
+    line-height: 1.136;
+  }
+  @media (min: width 1200px) {
+    font-size: 38px;
+    line-height: 1.157;
+  }
+}
+.main__title {
+  font-family: $title-font;
+  font-size: 48px;
+  line-height: 0.958;
+  color: $accent-color-darck;
+  @media (min: width 768px) {
+    font-size: 34px;
+    line-height: 0.911;
+  }
+  @media (min: width 1200px) {
+    font-size: 58px;
+    line-height: 0.896;
+  }
+}
+.section__title {
+  font-family: $title-font;
+  color: $accent-color-darck;
+  font-size: 34px;
+  line-height: 1.147;
+  @media (min: width 768px) {
+    font-size: 48px;
+    line-height: 1.145;
+  }
+  @media (min: width 1200px) {
+    font-size: 58px;
+    line-height: 1.137;
+  }
+}
+.section__label {
+  font-family: $title-font;
+  font-size: 18px;
+  color: $accent-color-light;
+  line-height: 1.166;
+  @media (min: width 768px) {
+    font-size: 26px;
+    line-height: 1.153;
+  }
+  @media (min: width 1200px) {
+    font-size: 30px;
+    line-height: 1.133;
+  }
+}
+.product__title {
+  font-size: 20px;
+  color: $white-text-color;
+  line-height: 1.15;
+  @media (min: width 768px) {
+    font-size: 20px;
+    line-height: 1.145;
+  }
+  @media (min: width 1200px) {
+    font-size: 30px;
+    line-height: 1.145;
+  }
+}
