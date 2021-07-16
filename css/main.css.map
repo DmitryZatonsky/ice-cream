@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;AEDH,AAAA,gBAAgB,CAAC;EACf,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,IAAI,EAAE,aAAa;EACnB,QAAQ,EAAE,MAAM;CACjB",
+    "sources": [
+        "../src/sass/main.scss",
+        "../src/sass/utils/_variables.scss",
+        "../src/sass/base/_common.scss",
+        "../src/sass/components/_header.scss",
+        "../src/sass/components/_hero.scss",
+        "../src/sass/components/_products.scss",
+        "../src/sass/components/_about.scss",
+        "../src/sass/components/_advantages.scss",
+        "../src/sass/components/_gallery.scss",
+        "../src/sass/components/_contacts.scss",
+        "../src/sass/components/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
