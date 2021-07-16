@@ -1,11 +1,18 @@
 @font-face {
+  font-family: 'TitanOne';
+  src: url('TitanOne.svg#TitanOne') format('svg'), url('TitanOne.ttf') format('truetype'),
+    url('TitanOne.woff') format('woff');
+  font-weight: normal;
+  font-style: 700;
+}
+@font-face {
   font-family: 'DMSans-Bold';
   src: url('DMSans-Bold.eot');
   src: url('DMSans-Bold.eot?#iefix') format('embedded-opentype'),
     url('DMSans-Bold.svg#DMSans-Bold') format('svg'), url('DMSans-Bold.ttf') format('truetype'),
     url('DMSans-Bold.woff') format('woff'), url('DMSans-Bold.woff2') format('woff2');
   font-weight: normal;
-  font-style: normal;
+  font-style: 700;
 }
 
 @font-face {
@@ -16,7 +23,7 @@
     url('DMSans-Medium.ttf') format('truetype'), url('DMSans-Medium.woff') format('woff'),
     url('DMSans-Medium.woff2') format('woff2');
   font-weight: normal;
-  font-style: normal;
+  font-style: 500;
 }
 
 @font-face {
@@ -27,24 +34,7 @@
     url('DMSans-Regular.ttf') format('truetype'), url('DMSans-Regular.woff') format('woff'),
     url('DMSans-Regular.woff2') format('woff2');
   font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'TitanOne-Regular';
-  src: url('TitanOne-Regular.eot');
-  src: url('TitanOne-Regular.eot?#iefix') format('embedded-opentype'),
-    url('TitanOne-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'TitanOne';
-  src: url('TitanOne.svg#TitanOne') format('svg'), url('TitanOne.ttf') format('truetype'),
-    url('TitanOne.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-style: 400;
 }
 
 // @font-face {

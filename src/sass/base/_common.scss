@@ -1,17 +1,5 @@
 //основные настройки, обнуления.
 
-body {
-  font-family: $title-font;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 90.5%;
-  /* or 52px */
-
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
