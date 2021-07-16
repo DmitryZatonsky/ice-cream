@@ -1,40 +1,40 @@
 @font-face {
-  font-family: 'TitanOne';
+  font-family: 'TitanOne', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   src: url('TitanOne.svg#TitanOne') format('svg'), url('TitanOne.ttf') format('truetype'),
     url('TitanOne.woff') format('woff');
-  font-weight: normal;
-  font-style: 700;
 }
 @font-face {
-  font-family: 'DMSans-Bold';
+  font-family: 'DMSans-Bold', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   src: url('DMSans-Bold.eot');
   src: url('DMSans-Bold.eot?#iefix') format('embedded-opentype'),
     url('DMSans-Bold.svg#DMSans-Bold') format('svg'), url('DMSans-Bold.ttf') format('truetype'),
     url('DMSans-Bold.woff') format('woff'), url('DMSans-Bold.woff2') format('woff2');
-  font-weight: normal;
-  font-style: 700;
 }
 
 @font-face {
-  font-family: 'DMSans-Medium';
+  font-family: 'DMSans-Medium', sans-serif;
+  font-weight: 500;
+  font-style: normal;
   src: url('DMSans-Medium.eot');
   src: url('DMSans-Medium.eot?#iefix') format('embedded-opentype'),
     url('DMSans-Medium.svg#DMSans-Medium') format('svg'),
     url('DMSans-Medium.ttf') format('truetype'), url('DMSans-Medium.woff') format('woff'),
     url('DMSans-Medium.woff2') format('woff2');
-  font-weight: normal;
-  font-style: 500;
 }
 
 @font-face {
-  font-family: 'DMSans-Regular';
+  font-family: 'DMSans-Regular', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   src: url('DMSans-Regular.eot');
   src: url('DMSans-Regular.eot?#iefix') format('embedded-opentype'),
     url('DMSans-Regular.svg#DMSans-Regular') format('svg'),
     url('DMSans-Regular.ttf') format('truetype'), url('DMSans-Regular.woff') format('woff'),
     url('DMSans-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: 400;
 }
 
 // @font-face {
