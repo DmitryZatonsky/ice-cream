@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+body {
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1999px) {
+  .container {
+    max-width: 768px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+}
+.products {
+  display: block;
+  padding: 121px 20px 98px 20px;
+}
+
+.products__text-box {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Titan One", sans-serif;
+}
+
+.products__text {
+  font-size: 18px;
+  line-height: 1.166;
+  color: #ffa5ba;
+  margin-bottom: 15px;
+}
+
+.products__title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.147;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  margin-bottom: 31px;
+}
+
+.products-list__item {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  padding-top: 113px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.products-list__subtitle {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 161px;
+}
+
+.products-list__points {
+  margin-bottom: 30px;
+  height: 6px;
+  width: 6px;
+}
+
+.products-list__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  letter-spacing: 0.04em;
+  margin-bottom: 30px;
+}
+
+.products-list__textbox {
+  padding: 0 40px 40px 40px;
+  background: #ffb8ca;
+  border-radius: 24px;
+}
+.products-list__textbox--yellow {
+  background: #f0d1a5;
+}
+.products-list__textbox--green {
+  background: #c2e297;
+}
+
+.section__advantages {
+  background-color: #fff5f6;
+  padding-top: 125px;
+  padding-bottom: 39px;
+}
+
+.section__label--advantages {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section__title--advantages {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.footer {
+  background-color: #fff5f6;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+}
+
+.footer__text {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.145;
+  color: #ffa5ba;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+@media screen and (min-width: 768px) {
+  .footer__text {
+    font-size: 26px;
+  }
+}
+
+.footer__subtext {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 1.145;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  text-transform: uppercase;
+  margin-bottom: 43px;
+  padding-right: 100px;
+}
+@media screen and (min-width: 768px) {
+  .footer__subtext {
+    font-size: 48px;
+  }
+}
+
+.footer__social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__icons {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 46px;
+  padding: 0;
+}
+
+.footer__link {
+  width: 34px;
+  height: 34px;
+  margin-right: 28.24px;
+  fill: #ffffff;
+  background-color: #fea5bb;
+  border-radius: 50% 50%;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer__contacts {
+  margin-bottom: 43px;
+  text-align: right;
+}
+
+.footer__contacts-detales {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.86;
+  color: #d41443;
+  text-align: left;
+}
+
+.footer__contacts-text {
+  color: black;
+}
+
+.footer__contacts-rights {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.52;
+  color: #907e82;
+  padding-top: 22px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-top: 1px solid #e1e1e1;
+}
+@media screen and (min-width: 768px) {
+  .footer__contacts-rights {
+    padding-bottom: 18px;
+    padding-top: 29px;
+  }
+}
+
+/*media*/
+@media screen and (min-width: 768) {
+  .footer .container {
+    display: flex;
+  }
+
+  .footer__information {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */
