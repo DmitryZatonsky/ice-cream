@@ -27,7 +27,14 @@
   letter-spacing: 0.04em;
 
   color: $accent-color-dark;
-  margin-bottom: 31px;
+  margin-bottom: 150px;
+}
+
+.products-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .products-list__item {
@@ -41,6 +48,19 @@
   text-align: center;
 
   color: $white-text-color;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 20px * 2) / 3);
+    max-width: 220px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  &:not(:last-child) {
+    @media screen and (min-width: 768px) {
+      margin-right: 20px;
+    }
+  }
 }
 
 .products-list__subtitle {
@@ -52,7 +72,62 @@
   text-transform: uppercase;
 
   margin-bottom: 30px;
-  padding-top: 161px;
+  margin-bottom: 20px;
+  padding-top: 136px;
+
+  &::before {
+    content: '';
+
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+      width: 220px;
+      height: 220px;
+      margin-top: -263px;
+      margin-bottom: 30px;
+    }
+  }
+
+  // &::after {
+  //   content: '';
+  //   display: block;
+  // }
+}
+.products--cream::before {
+  background: url(../images/products/ice-mob1x.png) no-repeat;
+  @media screen and (min-width: 768px) {
+    background: url(../images/products/ice-tab1x.png) no-repeat;
+  }
+}
+.products--coffee::before {
+  background: url(../images/products/coffee-mob1x.png) no-repeat;
+  @media screen and (min-width: 768px) {
+    background: url(../images/products/coffee-tab1x.png) no-repeat;
+  }
+}
+.products--milkshakes::before {
+  background: url(../images/products/milkshake-mob1x.png) no-repeat;
+  @media screen and (min-width: 768px) {
+    background: url(../images/products/milkshake-tab1x.png) no-repeat;
+  }
+}
+
+.products-list__button-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.products-list__button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-style: none;
 }
 
 .products-list__points {
@@ -73,6 +148,11 @@
   padding: 0 40px 40px 40px;
   background: $background-hero;
   border-radius: 24px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   &--yellow {
     background: #f0d1a5;
