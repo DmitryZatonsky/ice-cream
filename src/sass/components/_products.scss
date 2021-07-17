@@ -27,7 +27,10 @@
   letter-spacing: 0.04em;
 
   color: $accent-color-dark;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
 }
 
 .products-list {
