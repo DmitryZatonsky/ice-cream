@@ -8,33 +8,37 @@
  * Все паршалы подключаются сюда.
  */
 @font-face {
-  font-family: "TitanOne", sans-serif;
+  font-family: 'TitanOne', sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/TitanOne-Regular.eot");
   src: url("../fonts/TitanOne-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TitanOne.svg#svgTitanOne") format("svg"), url("../fonts/TitanOne.ttf") format("truetype"), url("../fonts/TitanOne.woff") format("woff"), url("../fonts/TitanOne-Regular.woff2") format("woff2");
 }
+
 @font-face {
-  font-family: "DMSans-Bold", sans-serif;
+  font-family: 'DMSans-Bold', sans-serif;
   font-weight: 700;
   font-style: normal;
   src: url("../fonts/DMSans-Bold.eot");
   src: url("../fonts/DMSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DMSans-Bold.svg#svgDMSans-Bold") format("svg"), url("../fonts/DMSans-Bold.ttf") format("truetype"), url("../fonts/DMSans-Bold.woff") format("woff"), url("../fonts/DMSans-Bold.woff2") format("woff2");
 }
+
 @font-face {
-  font-family: "DMSans-Medium", sans-serif;
+  font-family: 'DMSans-Medium', sans-serif;
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/DMSans-Medium.eot");
   src: url("../fonts/DMSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/DMSans-Medium.svg#svgDMSans-Medium") format("svg"), url("../fonts/DMSans-Medium.ttf") format("truetype"), url("../fonts/DMSans-Medium.woff") format("woff"), url("../fonts/DMSans-Medium.woff2") format("woff2");
 }
+
 @font-face {
-  font-family: "DMSans-Regular", sans-serif;
+  font-family: 'DMSans-Regular', sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url("../fonts/DMSans-Regular.eot");
   src: url("../fonts/DMSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/DMSans-Regular.svg#DMSans-Regular") format("svg"), url("../fonts/DMSans-Regular.ttf") format("truetype"), url("../fonts/DMSans-Regular.woff") format("woff"), url("../fonts/DMSans-Regular.woff2") format("woff2");
 }
+
 body {
   font-family: "DM Sans", sans-serif;
   color: #000000;
@@ -87,12 +91,14 @@ img {
   color: #ffffff;
   letter-spacing: 0.04;
 }
+
 @media (min-width: 768px) {
   .main__label {
     font-size: 22px;
     line-height: 1.136;
   }
 }
+
 @media (min-width: 1280px) {
   .main__label {
     font-size: 38px;
@@ -106,12 +112,14 @@ img {
   line-height: 0.958;
   color: #d41443;
 }
+
 @media (min-width: 768px) {
   .main__title {
     font-size: 34px;
     line-height: 0.911;
   }
 }
+
 @media (min-width: 1280px) {
   .main__title {
     font-size: 58px;
@@ -125,12 +133,14 @@ img {
   font-size: 34px;
   line-height: 1.147;
 }
+
 @media (min-width: 768px) {
   .section__title {
     font-size: 48px;
     line-height: 1.145;
   }
 }
+
 @media (min-width: 1200px) {
   .section__title {
     font-size: 58px;
@@ -144,12 +154,14 @@ img {
   color: #ffa5ba;
   line-height: 1.166;
 }
+
 @media (min-width: 768px) {
   .section__label {
     font-size: 26px;
     line-height: 1.153;
   }
 }
+
 @media (min-width: 1280px) {
   .section__label {
     font-size: 30px;
@@ -162,12 +174,14 @@ img {
   color: #ffffff;
   line-height: 1.15;
 }
+
 @media (min-width: 768px) {
   .product__title {
     font-size: 20px;
     line-height: 1.145;
   }
 }
+
 @media (min-width: 1280px) {
   .product__title {
     font-size: 30px;
@@ -190,6 +204,7 @@ img {
     padding-right: 20px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1999px) {
   .container {
     max-width: 768px;
@@ -197,6 +212,7 @@ img {
     padding-right: 35px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
@@ -204,15 +220,18 @@ img {
     padding-right: 115px;
   }
 }
+
 .products {
   display: block;
   padding: 120px 20px 100px 20px;
 }
+
 @media screen and (min-width: 768px) {
   .products {
     padding-bottom: 115px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products {
     padding-left: 115px;
@@ -244,11 +263,13 @@ img {
   color: #d41443;
   margin-bottom: 145px;
 }
+
 @media screen and (min-width: 768px) {
   .products__title {
     margin-bottom: 150px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products__title {
     margin-bottom: 260px;
@@ -257,8 +278,11 @@ img {
 
 @media screen and (min-width: 768px) {
   .products-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -270,17 +294,21 @@ img {
   text-align: center;
   color: #ffffff;
 }
+
 @media screen and (min-width: 768px) {
   .products-list__item {
-    flex-basis: calc((100% - 20px * 2) / 3);
+    -ms-flex-preferred-size: calc((100% - 20px * 2) / 3);
+        flex-basis: calc((100% - 20px * 2) / 3);
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
 }
+
 .products-list__item:not(:last-child) {
   margin-bottom: 130px;
 }
+
 @media screen and (min-width: 768px) {
   .products-list__item:not(:last-child) {
     margin-right: 20px;
@@ -300,16 +328,19 @@ img {
   margin-bottom: 20px;
   padding-top: 160px;
 }
+
 .products-list__subtitle::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   top: -113px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 250px;
   height: 252px;
 }
+
 @media screen and (min-width: 768px) {
   .products-list__subtitle::before {
     top: -104px;
@@ -318,6 +349,7 @@ img {
     height: 235px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products-list__subtitle::before {
     top: -210px;
@@ -330,11 +362,13 @@ img {
 .products--cream::before {
   background: url(../images/products/ice-mob1x.png);
 }
+
 @media screen and (min-width: 768px) {
   .products--cream::before {
     background: url(../images/products/ice-tab1x.png);
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products--cream::before {
     background: url(../images/products/ice-desk1x.png);
@@ -344,11 +378,13 @@ img {
 .products--coffee::before {
   background: url(../images/products/coffee-mob1x.png);
 }
+
 @media screen and (min-width: 768px) {
   .products--coffee::before {
     background: url(../images/products/coffee-tab1x.png);
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products--coffee::before {
     background: url(../images/products/coffee-desk1x.png);
@@ -358,11 +394,13 @@ img {
 .products--milkshakes::before {
   background: url(../images/products/milkshake-mob1x.png);
 }
+
 @media screen and (min-width: 768px) {
   .products--milkshakes::before {
     background: url(../images/products/milkshake-tab1x.png);
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products--milkshakes::before {
     background: url(../images/products/milkshake-desk1x.png);
@@ -400,21 +438,25 @@ img {
   background: #ffb8ca;
   border-radius: 24px;
 }
+
 @media screen and (min-width: 768px) {
   .products-list__textbox {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .products-list__textbox {
     padding-left: 45px;
     padding-right: 45px;
   }
 }
+
 .products-list__textbox--yellow {
   background: #f0d1a5;
 }
+
 .products-list__textbox--green {
   background: #c2e297;
 }
@@ -471,122 +513,151 @@ img {
   fill: #d41443;
 }
 
-.footer {
-  background-color: #fff5f6;
+.contacts {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #FFFFFF), color-stop(10%, #FFF5F6));
+  background-image: linear-gradient(to bottom, #FFFFFF 10%, #FFF5F6 10% #FFF5F6 90%);
 }
 
-.footer a {
-  text-decoration: none;
-}
-.footer li {
-  list-style: none;
-}
-
-.footer__text {
-  font-family: "Titan One";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1.145;
-  color: #ffa5ba;
-  text-transform: uppercase;
-  margin-bottom: 17px;
-}
 @media screen and (min-width: 768px) {
-  .footer__text {
-    font-size: 26px;
+  .contacts {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #FFFFFF), color-stop(15%, #FFF5F6));
+    background-image: linear-gradient(to bottom, #FFFFFF 15%, #FFF5F6 15% #FFF5F6 85%);
   }
 }
 
-.footer__subtext {
-  font-family: "Titan One";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 34px;
-  line-height: 1.145;
-  letter-spacing: 0.04em;
-  color: #d41443;
-  text-transform: uppercase;
-  margin-bottom: 43px;
-  padding-right: 100px;
+.contact-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
 @media screen and (min-width: 768px) {
-  .footer__subtext {
-    font-size: 48px;
+  .contact-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
-.footer__social {
-  display: flex;
-  justify-content: flex-end;
+@media screen and (min-width: 1280px) {
+  .contact-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
-.footer__icons {
-  display: flex;
-  margin-top: 0;
-  margin-bottom: 46px;
-  padding: 0;
+.time {
+  border-bottom: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
 }
 
-.footer__link {
-  width: 34px;
-  height: 34px;
-  margin-right: 28.24px;
-  fill: #ffffff;
-  background-color: #fea5bb;
-  border-radius: 50% 50%;
-}
-
-.footer__link:last-child {
-  margin-right: 0;
-}
-
-.footer__contacts {
-  margin-bottom: 43px;
-  text-align: right;
-}
-
-.footer__contacts-detales {
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-style: normal;
+.cards-contact {
+  font-weight: 500;
   font-size: 12px;
   line-height: 1.86;
-  color: #d41443;
-  text-align: left;
 }
 
-.footer__contacts-text {
-  color: black;
-}
-
-.footer__contacts-rights {
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.52;
-  color: #907e82;
-  padding-top: 22px;
-  padding-bottom: 25px;
-  text-align: center;
-  border-top: 1px solid #e1e1e1;
-}
 @media screen and (min-width: 768px) {
-  .footer__contacts-rights {
-    padding-bottom: 18px;
-    padding-top: 29px;
+  .cards-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -10px;
   }
 }
 
-/*media*/
-@media screen and (min-width: 768) {
-  .footer .container {
-    display: flex;
+@media screen and (min-width: 1280px) {
+  .cards-contact {
+    margin-right: -31px;
   }
+}
 
-  .footer__information {
-    display: flex;
-    flex-direction: column;
+.contact-item {
+  max-width: 220px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 43px 21px 43px 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-item {
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 50px 32px 50px 31px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-item {
+    font-size: 16px;
+    margin-right: 31px;
+    max-width: 330px;
+    padding: 51px 44px 62px 43x;
+  }
+}
+
+.contact-item__title {
+  display: inline-block;
+  padding: 0px 24px;
+  background: #F0D1A5;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact-item__title-truck {
+  background: #C2E297;
+}
+
+.contact-item__city {
+  margin-bottom: 10px;
+}
+
+.contact-item__text {
+  line-height: 1.5;
+  color: #907E82;
+  font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-item__text {
+    font-size: 13px;
+    line-height: 1.66;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-item__text {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+}
+
+.contact-item:last-child,
+.contact-item__text:last-child {
+  margin-bottom: 0px;
+}
+
+.contact-container:last-child {
+  padding-bottom: 0px;
+}
+
+.time-pink {
+  color: #FFA5BA;
+}
+
+.weekdays {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=main.css.map */
