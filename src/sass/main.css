@@ -62,7 +62,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .container {
     max-width: 768px;
     padding-left: 35px;
@@ -76,5 +76,227 @@ img {
     padding-left: 115px;
     padding-right: 115px;
   }
+}
+
+.products {
+  display: block;
+  padding: 121px 20px 98px 20px;
+}
+
+.products__text-box {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Titan One", sans-serif;
+}
+
+.products__text {
+  font-size: 18px;
+  line-height: 1.166;
+  color: #ffa5ba;
+  margin-bottom: 15px;
+}
+
+.products__title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.147;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  margin-bottom: 31px;
+}
+
+.products-list__item {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  padding-top: 113px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.products-list__subtitle {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 161px;
+}
+
+.products-list__points {
+  margin-bottom: 30px;
+  height: 6px;
+  width: 6px;
+}
+
+.products-list__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  letter-spacing: 0.04em;
+  margin-bottom: 30px;
+}
+
+.products-list__textbox {
+  padding: 0 40px 40px 40px;
+  background: #ffb8ca;
+  border-radius: 24px;
+}
+
+.products-list__textbox--yellow {
+  background: #f0d1a5;
+}
+
+.products-list__textbox--green {
+  background: #c2e297;
+}
+
+.contacts {
+  padding: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #FFFFFF), color-stop(10%, #FFF5F6));
+  background-image: linear-gradient(to bottom, #FFFFFF 10%, #FFF5F6 10% #FFF5F6 90%);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #FFFFFF), color-stop(15%, #FFF5F6));
+    background-image: linear-gradient(to bottom, #FFFFFF 15%, #FFF5F6 15% #FFF5F6 85%);
+  }
+}
+
+.contact-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.time {
+  border-bottom: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+}
+
+.cards-contact {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards-contact {
+    margin-right: -31px;
+  }
+}
+
+.contact-item {
+  max-width: 220px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 43px 21px 43px 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-item {
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 50px 32px 50px 31px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-item {
+    font-size: 16px;
+    margin-right: 31px;
+    max-width: 330px;
+    padding: 51px 44px 62px 43x;
+  }
+}
+
+.contact-item__title {
+  display: inline-block;
+  padding: 0px 24px;
+  background: #F0D1A5;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact-item__title-truck {
+  background: #C2E297;
+}
+
+.contact-item__city {
+  margin-bottom: 10px;
+}
+
+.contact-item__text {
+  line-height: 1.5;
+  color: #907E82;
+  font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-item__text {
+    font-size: 13px;
+    line-height: 1.66;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-item__text {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+}
+
+.contact-item:last-child,
+.contact-item__text:last-child {
+  margin-bottom: 0px;
+}
+
+.contact-container:last-child {
+  padding-bottom: 0px;
+}
+
+.time-pink {
+  color: #FFA5BA;
+}
+
+.weekdays {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -21,9 +21,9 @@
     <symbol id="icon-menu-burger" viewBox="0 0 46 32">
       <path stroke-width="2.286" d="M0 2.286h45.714M0 16h45.714M0 29.714h45.714"/>
     </symbol>
-    <svg id="icon-menu-close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-menu-close" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
       <path d="M1.25928 1L14.7408 15" />
       <path d="M1 14.7407L15 1.25924" />
-    </svg>
+    </symbol>
   </defs>
 </svg>
