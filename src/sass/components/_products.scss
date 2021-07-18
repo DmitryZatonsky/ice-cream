@@ -20,6 +20,9 @@
 }
 
 //use main styles
+
+//Заголовок секции
+
 .products__title {
   font-weight: 400;
   font-size: 34px;
@@ -27,7 +30,8 @@
   letter-spacing: 0.04em;
 
   color: $accent-color-dark;
-  margin-bottom: 30px;
+  margin-bottom: 145px;
+
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
   }
@@ -40,14 +44,15 @@
   }
 }
 
+// Карточка эдлемент списка
+
 .products-list__item {
   position: relative;
 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 16px;
-  padding-top: 113px;
+  // padding-top: 113px;
   text-align: center;
 
   color: $white-text-color;
@@ -60,6 +65,8 @@
     margin-bottom: 0;
   }
   &:not(:last-child) {
+    margin-bottom: 130px;
+
     @media screen and (min-width: 768px) {
       margin-right: 20px;
     }
@@ -67,6 +74,8 @@
 }
 
 .products-list__subtitle {
+  display: block;
+
   font-family: $title-font;
   font-weight: 400;
   font-size: 20px;
@@ -76,23 +85,27 @@
 
   margin-bottom: 30px;
   margin-bottom: 20px;
-  padding-top: 136px;
+  padding-top: 160px;
 
   &::before {
     content: '';
+    position: absolute;
+    display: block;
+    top: -113px;
+    left: 50%;
+    transform: translateX(-50%);
 
-    display: inline-block;
     width: 250px;
-    height: 250px;
-    margin-top: -250px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    height: 252px;
+    // margin-top: -250px;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-bottom: 20px;
 
     @media screen and (min-width: 768px) {
       width: 220px;
       height: 220px;
-      margin-top: -263px;
+      // margin-top: -263px;
       margin-bottom: 30px;
     }
   }
