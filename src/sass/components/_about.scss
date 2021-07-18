@@ -1,0 +1,47 @@
+.section__about {
+  background-color: $background-light-bg;
+  padding-top: 125px;
+  padding-bottom: 39px;
+}
+
+.section__label--about {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section__title--about {
+  text-align: center;
+  margin-bottom: 26px;
+}
+.image__about {
+  margin-bottom: 46px;
+}
+.text-block__about {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.text__about--dark {
+  margin-bottom: 28px;
+
+  font-family: $basic-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: $primary-text-color;
+}
+.text__about--light {
+  font-family: $basic-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: $secondary-text-color;
+}
+
+.text__about--position {
+  margin-bottom: 10px;
+}
+.check-right__icon {
+  fill: $accent-color-dark;
+}
