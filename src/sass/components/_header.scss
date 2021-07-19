@@ -4,8 +4,11 @@ header {
 header .container {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 0 20px;
   justify-content: space-between;
+  @media (min-width: 768px) {
+    padding-top: 37px;
+  }
 }
 .main__logo {
   max-width: 199px;
@@ -36,10 +39,23 @@ nav {
   font-size: 16px;
   font-weight: 700;
   color: $white-text-color;
+  & :not(:last-child) {
+    margin-right: 35px;
+  }
 }
-nav :not(:last-child) {
-  margin-right: 35px;
+.current {
+  color: $accent-color-dark;
 }
+.nav__link {
+  & :focus,
+  & :hover {
+    transform: scale(1.1);
+    color: $accent-color-dark;
+  }
+}
+// nav :not(:last-child) {
+//   margin-right: 35px;
+// }
 .button {
   display: none;
   @media (min-width: 768px) {
