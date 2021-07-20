@@ -1,28 +1,21 @@
 .hero__section {
   background-color: $background-hero;
-  position: relative;
+  overflow: visible;
 
   @media (max-width: 768px) {
-    background-image: url(../images/icecream-mob-1x.png),
-      url(../images/Ellipse.png);
+    background-image: url(../images/icecream-mob-1x.png), url(../images/Ellipse.png);
     background-size: contain;
     background-position: right 32px top 36px, right -32px top 27px;
     background-repeat: no-repeat;
   }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero__section {
       background-image: url(../images/icecream-mob-2x.png);
     }
   }
-  @media (min: width 768px) {
-    background-image: url(../images/Ellipse.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
 }
 .hero__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -36,7 +29,6 @@
   @media (min-width: 768px) {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     justify-content: space-between;
     align-items: flex-end;
   }
@@ -62,18 +54,21 @@
   }
 }
 .banner__background {
-}
-.description {
-  display: flex;
-  margin-bottom: 28px;
+  position: absolute;
+  width: 324px;
+  top: -31px;
+  left: 307px;
 
   @media (min-width: 1280px) {
-    margin-bottom: 45px;
+    width: 538px;
+    left: 475px;
+    top: -52px;
   }
   @media (max-width: 768px) {
     display: none;
   }
 }
+
 .number {
   font-family: $title-font;
   font-size: 28px;
@@ -94,6 +89,10 @@
     background-size: 30px;
     padding-right: 20px;
   }
+  &:focus,
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .numbers__list {
   color: $white-text-color;
@@ -104,13 +103,28 @@
     font-size: 14px;
   }
 }
+.description {
+  display: flex;
+  margin-bottom: 28px;
+
+  @media (min-width: 1280px) {
+    margin-bottom: 45px;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
 .description__text {
-  width: 200px;
   color: $white-text-color;
+  max-width: 114px;
+  font-size: 8px;
+  @media (min-width: 1280px) {
+    width: 200px;
+    font-size: 14px;
+  }
 }
 .main__label {
   padding-top: 137px;
-  padding-left: 20px;
   @media (min-width: 768px) {
     padding-top: 15px;
   }
@@ -119,7 +133,6 @@
   }
 }
 .main__title {
-  padding-left: 20px;
   padding-bottom: 20px;
   margin: 0;
 }
@@ -134,6 +147,7 @@
     margin-bottom: 56px;
   }
 }
+
 .round__button {
   background-color: $white-text-color;
   width: 18px;
@@ -141,4 +155,11 @@
   border-radius: 25px;
   border: none;
   margin-top: 7px;
+}
+.girl {
+  z-index: 3;
+  &:focus,
+  &:hover {
+    transform: scale(1.1);
+  }
 }

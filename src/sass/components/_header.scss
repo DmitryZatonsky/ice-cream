@@ -32,6 +32,7 @@ header .container {
   }
 }
 nav {
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   margin-right: auto;
@@ -47,15 +48,13 @@ nav {
   color: $accent-color-dark;
 }
 .nav__link {
-  & :focus,
-  & :hover {
+  &:focus,
+  &:hover {
     transform: scale(1.1);
     color: $accent-color-dark;
   }
 }
-// nav :not(:last-child) {
-//   margin-right: 35px;
-// }
+
 .button {
   display: none;
   @media (min-width: 768px) {
@@ -70,6 +69,11 @@ nav {
 }
 nav {
   @media (max-width: 1280px) {
+    display: none;
+  }
+}
+.buy__now {
+  @media (max-width: 768px) {
     display: none;
   }
 }
