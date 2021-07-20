@@ -1,5 +1,5 @@
 .gallery {
-    background-image: linear-gradient(to bottom, #FFF5F6 40%, #FFFFFF 40%, #FFFFFF 60%);
+    background-image: linear-gradient(to bottom, $background-light-bg 40%, $white-text-color 40%, $white-text-color 60%);
 }
 
 .gallery__list {
@@ -79,6 +79,6 @@
 .gallery__image:hover,
 .gallery__image:focus {
     transform: scale(1.30);
-    border: 2px solid #FFB8CA;
+    border: 2px solid $background-hero;
 
 }

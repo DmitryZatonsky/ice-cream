@@ -7,7 +7,7 @@
 .reviews__image:hover,
 .reviews__image:focus {
     transform: scale(2.00);
-    border: 2px solid #FFB8CA;
+    border: 2px solid $background-hero;
     z-index: 3;
 }
 
@@ -84,7 +84,7 @@
 
     // &::after {
     //     content: "";
-    //     // display: block;
+    //     display: block;
     //     width: 4px;
     //     height: 4px;
     //     background-image: url("../images/reviews/symbol-defs.svg#ellipse");
@@ -132,6 +132,3 @@
     display: flex;
     justify-content: center;
 }
-// .reviews--container {
-//     display: flex;
-// }
