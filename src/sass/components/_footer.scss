@@ -11,7 +11,6 @@
     padding-bottom: 91px;
   }
   @media screen and (min-width: 768px) {
- 
     padding-bottom: 97px;
   }
 }
@@ -29,9 +28,9 @@
     letter-spacing: 0.04em;
     font-size: 26px;
     max-width: 340px;
-   }
-   @media screen and (min-width: 1280px){
-   font-size: 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
   }
 }
 .footer__subtext {
@@ -44,21 +43,19 @@
   color: rgba(212, 20, 67, 1);
   text-transform: uppercase;
   margin-bottom: 43px;
-  @media screen and (max-width: 767px){
-  max-width: 200px;}
+  @media screen and (max-width: 767px) {
+    max-width: 200px;
+  }
 
- 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     letter-spacing: 0.06em;
     font-size: 48px;
     max-width: 340px;
-
-   }
-   @media screen and (min-width: 1280px){
+  }
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     max-width: 474px;
-
-   }
+  }
 }
 .social {
   display: flex;
@@ -76,9 +73,9 @@
   height: 32px;
   margin-right: 28px;
   @media screen and (min-width: 768px) {
-   margin-right: 30px; 
+    margin-right: 30px;
   }
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     margin-right: 30px;
   }
 }
@@ -96,19 +93,18 @@
   fill: #ffffff;
   background-color: rgba(254, 165, 187, 1);
   border-radius: 50% 50%;
-  &:hover{
-    background-color: rgba(212, 20, 67, 1);}
-    &:focus{
-      background-color: rgba(212, 20, 67, 1);}
-    
-  
+  &:hover {
+    background-color: rgba(212, 20, 67, 1);
+  }
+  &:focus {
+    background-color: rgba(212, 20, 67, 1);
+  }
 }
 
 .social__link:hover,
 .social__link:focus {
   background-color: $accent-color-dark;
 }
-
 
 .footer__contacts-detales {
   font-family: 'DM Sans';
@@ -126,7 +122,6 @@
 }
 
 .footer__contacts-rights {
-
   font-family: 'DM Sans';
   font-weight: 700;
   font-style: normal;
@@ -139,12 +134,11 @@
 
   text-align: center;
 
-@media screen and (max-width: 767px){
-  max-width: 150px;
-margin-left: auto;
-margin-right: auto;
-  
-}
+  @media screen and (max-width: 767px) {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @media screen and (min-width: 768px) {
     padding-top: 29px;
     padding-bottom: 18px;
@@ -158,7 +152,6 @@ margin-right: auto;
 .footer__top {
   display: flex;
   flex-direction: column;
-
 }
 
 .footer__bottom {
@@ -166,7 +159,6 @@ margin-right: auto;
   flex-direction: column;
   align-items: flex-end;
 }
-.footer__border{
+.footer__border {
   border-top: 1px solid #e1e1e1;
-
 }
