@@ -4,23 +4,25 @@
   line-height: 1.145;
   color: $white-text-color;
   letter-spacing: 0.04;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 
   @media (min-width: 768px) {
     font-size: 22px;
     line-height: 1.136;
   }
-
   @media (min-width: 1280px) {
     font-size: 38px;
     line-height: 1.157;
   }
 }
-
 .main__title {
   font-family: $title-font;
   font-size: 48px;
   line-height: 0.958;
   color: $accent-color-dark;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   @media (min-width: 768px) {
     font-size: 34px;
     line-height: 0.911;
@@ -30,23 +32,23 @@
     line-height: 0.896;
   }
 }
-
 // h2 заголовки секций
-
 .section__title {
   font-family: $title-font;
   color: $accent-color-dark;
   font-size: 34px;
   line-height: 1.147;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 
   @media (min-width: 768px) {
     font-size: 48px;
     line-height: 1.145;
   }
-
   @media (min-width: 1200px) {
     font-size: 58px;
     line-height: 1.137;
+    letter-spacing: 0.06em;
   }
 }
 
@@ -55,12 +57,12 @@
   font-size: 18px;
   color: $accent-color-light;
   line-height: 1.166;
-
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   @media (min-width: 768px) {
     font-size: 26px;
     line-height: 1.153;
   }
-
   @media (min-width: 1280px) {
     font-size: 30px;
     line-height: 1.133;
@@ -70,6 +72,8 @@
   font-size: 20px;
   color: $white-text-color;
   line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   @media (min-width: 768px) {
     font-size: 20px;
     line-height: 1.145;
