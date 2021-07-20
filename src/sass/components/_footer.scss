@@ -1,0 +1,122 @@
+.footer {
+  background-color: rgba(255, 245, 246, 1);
+}
+
+.footer__base {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.footer__text {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.145;
+  color: rgba(255, 165, 186, 1);
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.footer__subtext {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 1.145;
+  letter-spacing: 0.04em;
+  color: rgba(212, 20, 67, 1);
+  text-transform: uppercase;
+  margin-bottom: 43px;
+  padding-right: 100px;
+}
+.social {
+  display: flex;
+}
+
+.social__list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 46px;
+  padding: 0;
+}
+
+.social__item {
+  width: 34px;
+  height: 34px;
+  margin-right: 24px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  fill: #ffffff;
+  background-color: rgba(254, 165, 187, 1);
+  border-radius: 50% 50%;
+}
+
+.social__link:hover,
+.social__link:focus {
+  background-color: $accent-color-dark;
+}
+
+.footer__contacts {
+  padding-bottom: 43px;
+}
+
+.footer__contacts-detales {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.86;
+
+  color: rgba(212, 20, 67, 1);
+}
+
+.footer__contacts-text {
+  color: black;
+}
+
+.footer__contacts-rights {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.52;
+  color: rgba(144, 126, 130, 1);
+  padding-top: 22px;
+  padding-bottom: 25px;
+
+  text-align: center;
+  border-top: 1px solid #e1e1e1;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 29px;
+    padding-bottom: 18px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 9px;
+    padding-bottom: 10px;
+  }
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
