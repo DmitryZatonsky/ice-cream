@@ -159,6 +159,7 @@
   margin-left: 11px;
   stroke: #ffffff;
 }
+
 .button-location {
   color: $white-text-color;
   background-color: #d41342;
@@ -184,6 +185,12 @@
   padding-right: 33.3px;
   font-size: 16px;
   line-height: 1.31;
+
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
+
   @media screen and (min-width: 768px) {
     padding-left: 38px;
     padding-right: 38px;
