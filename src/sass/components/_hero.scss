@@ -83,6 +83,7 @@
   }
 }
 .numbers__list li {
+  list-style: none;
   margin-bottom: 14px;
   background-image: url(../images/hero/milk-drop.png);
   background-position: top right;
@@ -204,6 +205,9 @@
   & :not(:last-child) {
     padding-bottom: 23px;
   }
+}
+.dark__button {
+  background-color: $accent-color-dark;
 }
 .mobile__button {
   padding-bottom: 32px;
