@@ -5,10 +5,10 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 125px;
-  padding-bottom: 39px;
+
   @media screen and (max-width: 767px) {
     background-image: url(../images/about/about-back-mob1x.png);
-    background-position: right 0px bottom 100px;
+    background-position: right 0px bottom 55px;
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -22,12 +22,11 @@
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     padding-top: 130px;
-    padding-bottom: 66px;
   }
 
   @media screen and (min-width: 1280px) {
     background-image: url(../images/about/about-back-desk1x.png);
-    background-position: right 0px bottom 25px;
+    background-position: right 0px bottom -15px;
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -126,7 +125,7 @@
     line-height: 1.78;
   }
 
-  @media screen and(min-width:1280x) {
+  @media screen and(min-width:1280px) {
     margin-bottom: 35px;
 
     font-size: 16px;
@@ -186,15 +185,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.button__check-right {
+.button__check-right--about {
   display: flex;
   align-items: center;
 
   margin-right: auto;
   padding-left: 37px;
   padding-right: 37.96px;
-  padding-top: 14px;
-  padding-bottom: 12px;
+  padding-top: 13px;
+  padding-bottom: 11px;
 
   border: none;
   background: $white-text-color;
