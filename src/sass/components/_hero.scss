@@ -1,0 +1,214 @@
+.hero__section {
+  background-color: $background-hero;
+  overflow: visible;
+
+  @media (max-width: 768px) {
+    background-image: url(../images/hero/icecream-mob-1x.png), url(../images/hero/Ellipse.png);
+    background-size: contain;
+    background-position: right 32px top 36px, right -32px top 27px;
+    background-repeat: no-repeat;
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero__section {
+      background-image: url(../images/hero/icecream-mob-2x.png);
+    }
+  }
+}
+.hero__container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.description__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: none;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+.hero__banner {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 50%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    width: 143px;
+  }
+  @media (min-width: 1280px) {
+    width: 236px;
+  }
+  &:focus,
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.banner__background {
+  position: absolute;
+  width: 324px;
+  top: -31px;
+  left: 307px;
+  @media (min-width: 768px) {
+    margin-right: 30px;
+  }
+
+  @media (min-width: 1280px) {
+    width: 538px;
+    left: 475px;
+    top: -52px;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.number {
+  font-family: $title-font;
+  font-size: 28px;
+  color: $accent-color-dark;
+  font-weight: 400;
+
+  @media (min-width: 1280px) {
+    font-size: 46px;
+  }
+}
+.numbers__list li {
+  list-style: none;
+  margin-bottom: 14px;
+  background-image: url(../images/hero/milk-drop.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+  @media (min-width: 1280px) {
+    background-size: 30px;
+    padding-right: 20px;
+  }
+  &:focus,
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.numbers__list {
+  color: $white-text-color;
+  font-size: 8px;
+  padding-top: 14px;
+  text-align: right;
+  @media (min-width: 1280px) {
+    font-size: 14px;
+  }
+}
+.description {
+  display: flex;
+  margin-bottom: 28px;
+
+  @media (min-width: 1280px) {
+    margin-bottom: 45px;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.description__text {
+  color: $white-text-color;
+  max-width: 114px;
+  font-size: 8px;
+  @media (min-width: 1280px) {
+    width: 200px;
+    font-size: 14px;
+  }
+}
+.main__label {
+  padding-top: 137px;
+  @media (min-width: 768px) {
+    padding-top: 15px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 84px;
+  }
+}
+.main__title {
+  padding-bottom: 20px;
+  margin: 0;
+}
+.hero-buttons {
+  display: flex;
+
+  padding-bottom: 160px;
+  @media (min-width: 768px) {
+    padding-bottom: 19px;
+  }
+  @media (min-width: 1280px) {
+    margin-bottom: 56px;
+  }
+}
+
+.round__button {
+  background-color: $white-text-color;
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 7px;
+}
+.girl {
+  z-index: 3;
+  &:focus,
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+// mobile menu
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: $background-mobile-menu;
+  min-width: 250px;
+  height: 100vh;
+  overflow-y: scroll;
+  font-weight: 500;
+}
+.mobile-menu.is-hidden {
+  display: none;
+  pointer-events: none;
+}
+.mobile__container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+}
+
+.menu-close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  background-color: inherit;
+  border: none;
+  stroke: $white-text-color;
+}
+.mobile__nav {
+  font-size: 16px;
+  font-weight: 700;
+  color: $white-text-color;
+  & :not(:last-child) {
+    padding-bottom: 23px;
+  }
+}
+.dark__button {
+  background-color: $accent-color-dark;
+}
+.mobile__button {
+  padding-bottom: 32px;
+}
