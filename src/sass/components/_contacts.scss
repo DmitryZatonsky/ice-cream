@@ -155,47 +155,6 @@
   }
 }
 
-.check-right__icon-location {
-  margin-left: 11px;
-  stroke: #ffffff;
-}
-.button-location {
-  color: $white-text-color;
-  background-color: #d41342;
-  padding-left: 18px;
-  padding-right: 18.84px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 1.31;
-  @media screen and (min-width: 768px) {
-    padding-left: 34px;
-    padding-right: 34.77px;
-    margin-right: 14.5px;
-    margin-bottom: 0;
-  }
-}
-.check-right__icon-franchise {
-  margin-left: 14.17px;
-  stroke: $accent-color-dark;
-}
-
-.button-franchise {
-  padding-left: 33px;
-  padding-right: 33.3px;
-  font-size: 16px;
-  line-height: 1.31;
-
-  &:hover,
-  &:focus {
-    background-color: #ecebeb;
-  }
-
-  @media screen and (min-width: 768px) {
-    padding-left: 38px;
-    padding-right: 38px;
-  }
-}
-
 .buttons-map {
   margin-top: 54px;
   margin-bottom: 54px;
@@ -206,4 +165,76 @@
     margin-right: auto;
     margin-left: auto;
   }
+}
+
+.btn-right {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  font-weight: bold;
+  color: $accent-color-dark;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 22px;
+  cursor: pointer;
+
+  &__icon-location {
+    stroke: #ffffff;
+    color: #d41342;
+    margin-left: 11px;
+  }
+  &__icon-franchise {
+    margin-left: 14.17px;
+    stroke: $accent-color-dark;
+  }
+}
+
+.button-franchise {
+  padding-left: 33px;
+  padding-right: 33.3px;
+  font-size: 16px;
+  line-height: 1.31;
+
+  &:hover {
+    background-color: #ecebeb;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 180px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.check-right__icon-franchise {
+  margin-left: 14.17px;
+  stroke: $accent-color-dark;
+}
+
+.button-location {
+  color: $white-text-color;
+  background-color: #d41342;
+  padding-left: 18px;
+  padding-right: 18.84px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.31;
+
+  @media screen and (min-width: 768px) {
+    min-width: 180px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 14.5px;
+    margin-bottom: 0;
+  }
+}
+
+.check-right__icon-location {
+  margin-left: 11px;
+  stroke: #ffffff;
 }
