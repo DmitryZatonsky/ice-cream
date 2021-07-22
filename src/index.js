@@ -3,7 +3,7 @@ import './sass/main.scss';
 // mobile menu
 (() => {
   const refs = {
-    openMenuBtn: document.querySelector('.menu-open'),
+    openMenuBtn: document.querySelector('.burger__button'),
     closeMenuBtn: document.querySelector('.menu-close'),
     menu: document.querySelector('.mobile-menu'),
   };
