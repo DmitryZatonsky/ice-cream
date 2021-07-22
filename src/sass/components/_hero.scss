@@ -177,6 +177,9 @@
 }
 
 .round__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: $white-text-color;
   width: 18px;
   height: 18px;
@@ -320,4 +323,12 @@
   @media screen and (min-width: 768px) {
     width: 186px;
   }
+}
+
+.link--button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
 }

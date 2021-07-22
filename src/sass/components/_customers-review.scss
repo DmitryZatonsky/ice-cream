@@ -154,15 +154,16 @@
 }
 
 .slick-dots button {
-  background: #d9d9d9;
-  border: none;
-  border-radius: 50%;
+  position: relative;
   height: 12px;
   width: 12px;
   margin: 0px;
+
+  background: #d9d9d9;
+  border: none;
+  border-radius: 50%;
   outline: none;
   color: transparent;
-  position: relative;
 }
 
 .slick-dots li:not(:last-child) {
