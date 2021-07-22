@@ -6,6 +6,7 @@ import './sass/main.scss';
     openMenuBtn: document.querySelector('.burger__button'),
     closeMenuBtn: document.querySelector('.menu-close'),
     menu: document.querySelector('.mobile-menu'),
+    
   };
 
   refs.openMenuBtn.addEventListener('click', toggleMenu);

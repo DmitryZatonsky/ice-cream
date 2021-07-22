@@ -46,12 +46,15 @@
   @media screen and (min-width: 768px) {
     width: 143px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 236px;
   }
   &:focus,
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05) translateY(-17px);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 .banner__background {
@@ -81,7 +84,7 @@
   color: $accent-color-dark;
   font-weight: 400;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 46px;
   }
 }
@@ -99,6 +102,9 @@
   &:focus,
   &:hover {
     transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 .numbers__list {
@@ -116,6 +122,7 @@
 
   @media screen and (min-width: 1280px) {
     margin-bottom: 45px;
+    align-items: center;
   }
   @media screen and (max-width: 767px) {
     display: none;
@@ -128,6 +135,14 @@
   @media screen and (min-width: 1280px) {
     width: 200px;
     font-size: 14px;
+    height: 78px;
+  }
+}
+
+.description__text-box {
+  @media screen and (min-width: 1280px) {
+    width: 200px;
+    height: 78px;
   }
 }
 .main__label {
@@ -143,6 +158,10 @@
   padding-bottom: 19px;
   margin: 0;
   letter-spacing: 0.01em;
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 25px;
+  }
 }
 .hero-buttons {
   display: flex;
@@ -153,6 +172,7 @@
   }
   @media screen and (min-width: 1280px) {
     margin-bottom: 56px;
+    padding-bottom: 0;
   }
 }
 
@@ -163,24 +183,66 @@
   border-radius: 25px;
   border: none;
   margin-top: 7px;
+
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+    box-shadow: 0px 0px 0px 1px #d41443;
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 26px;
+    height: 26px;
+  }
 }
+.description__button-icon {
+  fill: $accent-color-dark;
+}
+
 .girl {
   z-index: 3;
   &:focus,
   &:hover {
-    transform: scale(1.1);
+    transform: translateY(-13px) scale(1.1);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 // mobile menu
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 1;
+  pointer-events: none;
+
+  transition: opacity var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   background-color: $background-mobile-menu;
   min-width: 250px;
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
   font-weight: 500;
+  z-index: 5;
 }
 .mobile-menu.is-hidden {
   display: none;
@@ -226,6 +288,13 @@
   &:focus {
     background-color: #ecebeb;
   }
+  @media screen and (min-width: 1280px) {
+    width: 138px;
+    height: 40px;
+
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 .dark__button {
@@ -238,7 +307,17 @@
   &:focus {
     background-color: #c7133e;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 104px;
+  }
 }
 .mobile__button {
-  padding-bottom: 32px;
+  width: 209px;
+  height: 44px;
+  justify-content: center;
+  margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
 }
