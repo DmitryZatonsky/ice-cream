@@ -11,13 +11,19 @@
             <div class="description">
                 <img srcset="./images/hero/milk-desk-1x.png 188w,
                     ./images/hero/milk-desk-2x.png 372w,
-                    ./images/hero/milk-tab-1x.png 124w
+                    ./images/hero/milk-tab-1x.png 124w,
                     ./images/hero/milk-tab-2x.png 248w" sizes=" (min-width:1280px) 188px, (min-width:768px) 124px "
                     src=" ./images/hero/milk-desk-1x.png" alt="milk">
                 <div class="description__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    <p class="description__text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt
                         ut labore et</p>
-                    <button type="button" class="round__button"><svg width='18' height='18'></svg></button>
+                    <button type="button" class="round__button"><svg width='7' height='7'
+                            class="description__button-icon">
+                            <use href='./images/icons/icons.svg#icon-arrow'>
+
+                            </use>
+                        </svg></button>
                 </div>
             </div>
         </div>
@@ -29,7 +35,7 @@
                           ./images/hero/icecream-desk-1x.png 236w,
                           ./images/hero/icecream-desk-2x.png 472w,
                           ./images/hero/icecream-tab-1x.png 143w,
-                          ./images/hero/icecream-tab-2x.png 286w" sizes="(min-width:1200px) 236px,
+                          ./images/hero/icecream-tab-2x.png 286w" sizes="(min-width:1280px) 236px,
                  (min-width:768px) 143px " src=" ./images/hero/icecream-desk-1x.png" alt="huge delicious ice-cream">
 
         </div>
@@ -55,10 +61,10 @@
         </div>
     </div>
 </section>
-<div class="mobile-menu is-hidden">
-    <div class="mobile__container">
+<div class="mobile-menu  is-hidden ">
+    <div class="mobile__container ">
         <button type="button" class="menu-close">
-            <svg width='23px' height='23px'>
+            <svg width='14px' height='14px'>
                 <use href='./images/icons/icons.svg#icon-menu-close'></use>
             </svg>
         </button>
@@ -67,12 +73,12 @@
                 <use href='./images/icons/icons.svg#icon-arrow'></use>
             </svg>
         </button>
-        <ul class="mobile__nav">
-            <li> <a href="" class="current nav__link"> Home</a></li>
-            <li> <a href="#about" class="nav__link"> About us</a></li>
-            <li><a href="#" class="nav__link"> How it’s made?</a></li>
-            <li><a href="#products" class="nav__link"> Our products</a></li>
-            <li><a href="#contacts" class="nav__link"> Contact</a></li>
+        <ul class="mobile__nav list">
+            <li> <a href="" class="current nav__link link"> Home</a></li>
+            <li> <a href="#about" class="nav__link link"> About us</a></li>
+            <li><a href="#" class="nav__link link"> How it’s made?</a></li>
+            <li><a href="#products" class="nav__link link"> Our products</a></li>
+            <li><a href="#contacts" class="nav__link link"> Contact</a></li>
         </ul>
     </div>
 </div>

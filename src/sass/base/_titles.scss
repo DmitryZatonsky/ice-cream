@@ -7,11 +7,11 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 22px;
     line-height: 1.136;
   }
-  @media (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 38px;
     line-height: 1.157;
   }
@@ -23,11 +23,11 @@
   color: $accent-color-dark;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 34px;
     line-height: 0.911;
   }
-  @media (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     line-height: 0.896;
   }
@@ -41,11 +41,11 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 48px;
     line-height: 1.145;
   }
-  @media (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     line-height: 1.137;
     letter-spacing: 0.06em;
@@ -59,11 +59,11 @@
   line-height: 1.166;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 26px;
     line-height: 1.153;
   }
-  @media (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 30px;
     line-height: 1.133;
   }
@@ -74,11 +74,11 @@
   line-height: 1.15;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 20px;
     line-height: 1.145;
   }
-  @media (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 30px;
     line-height: 1.145;
   }
