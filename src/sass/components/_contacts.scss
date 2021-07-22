@@ -79,6 +79,14 @@
     padding: 51px 44px 62px 43x;
   }
 
+  &:focus,
+  &:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   &__title {
     display: inline-block;
 
